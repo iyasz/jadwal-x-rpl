@@ -1,0 +1,349 @@
+@font-face {
+    font-family: bit;
+    src: url(8-BIT\ WONDER.TTF);
+}
+
+@font-face {
+    font-family: arcade;
+    src: url(ARCADE_N.TTF);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(AmogusBg\ [572417A].png);
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.headline h1 {
+    text-align: center;
+    color: rgb(237, 237, 238);
+    font-family: arcade;
+    text-shadow: 2px 2px 2px black;
+    font-size: 37px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+
+.jadwal {
+    display: flex;
+}
+
+.senin {
+    margin: 80px 0px 0px 250px;
+}
+
+.senin h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.senin h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.kjd {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.ddg {
+    position: relative;
+    top: -12px;
+}
+
+.kimia {
+    position: relative;
+    top: -24px;
+}
+
+.sunda {
+    position: relative;
+    top: -36px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* selasa */
+
+.selasa {
+    margin: 80px 0px 0px 10px;
+}
+
+.selasa h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.selasa h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.indonesia {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.sejarah {
+    position: relative;
+    top: -12px;
+}
+
+.simdig {
+    position: relative;
+    top: -24px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* RABU */
+
+.rabu {
+    margin: 80px 0px 0px 10px;
+}
+
+.rabu h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.rabu h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.inggris {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.bk {
+    position: relative;
+    top: -12px;
+}
+
+.pkn {
+    position: relative;
+    top: -24px;
+}
+
+.pjok {
+    position: relative;
+    top: -36px;
+}
+
+.seni {
+    position: relative;
+    top: -48px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* KAMIS */
+
+.kamis {
+    margin: 80px 0px 0px 10px;
+}
+
+.kamis h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.kamis h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.agama {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.btq {
+    position: relative;
+    top: -12px;
+}
+
+.mtk {
+    position: relative;
+    top: -24px;
+}
+
+.siskom {
+    position: relative;
+    top: -36px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* JUM'AT */
+
+.jumat {
+    margin: 80px 0px 0px 10px;
+}
+
+.jumat h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.jumat h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.progdas {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.fisika {
+    position: relative;
+    top: -12px;
+}
+
+.progdass {
+    position: relative;
+    top: -24px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+/* sabtu */
+
+.sabtu {
+    margin: 80px 0px 0px 10px;
+}
+
+.sabtu h2 {
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -10px;
+    background-color: white;
+    padding: 12px 21px 12px 21px;
+    width: 90px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 9px;
+    font-family: cursive;
+    letter-spacing: 1.7px;
+}
+
+.sabtu h3 {
+    color: rgb(3, 3, 3);
+    background-color: white;
+    width: 110px;
+    text-align: center;
+    position: relative;
+    font-family:  cursive;
+    padding: 12px 17px 12px 5px;
+    font-size: 14px;
+    
+}
+
+.turu {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.turuu {
+    position: relative;
+    top: -12px;
+}
+
+.turuuu {
+    position: relative;
+    top: -24px;
+}
+
+.turuuuu {
+    position: relative;
+    top: -36px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
